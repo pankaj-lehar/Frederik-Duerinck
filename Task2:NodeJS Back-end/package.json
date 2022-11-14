@@ -1,0 +1,30 @@
+{
+  "name": "scentronix-backend",
+  "version": "1.0.0",
+  "description": "Scentronix BackEnd Test",
+  "main": "index.js",
+  "type:": "module",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "tsc && node ./build/index.js",
+    "start:dev": " ts-node-dev ./src/index.ts"
+  },
+  "author": "Leo Crispim Honorato",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^25.2.3",
+    "axios": "^0.21.1",
+    "jest": "^26.0.1",
+    "jest-fetch-mock": "^3.0.3",
+    "node-fetch": "2.0",
+    "ts-jest": "^26.1.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.19.0",
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocrispim/scentronix-backend.git"
+  }
+}
